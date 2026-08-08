@@ -1,0 +1,55 @@
+{
+  "privacy": {
+    "heroImage": "/images/privacy/privacy-hero.jpg",
+    "heading": "Privacy Policy",
+    "subheading": "We are committed to protecting your privacy and ensuring the security of your personal information.",
+    "lastUpdated": "February 1, 2025",
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "content": "<p>At Horizon Hosting, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or interact with us. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our services.</p><p>We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the \"Last Updated\" date of this Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates. You will be deemed to have been made aware of, and will be subject to, the changes to this Privacy Policy by your continued use of the site after the date such changes are posted.</p>"
+      },
+      {
+        "id": "information-we-collect",
+        "title": "Information We Collect",
+        "content": "<p>We may collect information about you in a variety of ways. The information we may collect on the site includes:</p><h4>Personal Data</h4><p>Personally identifiable information, such as your name, shipping address, email address, and telephone number, and demographic information, such as your age, gender, hometown, and interests, that you voluntarily give to us when you register with the site, create an account, place an order, or when you choose to participate in various activities related to the site such as online chat and message boards.</p><h4>Derivative Data</h4><p>Information our servers automatically collect when you access the site, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the site.</p><h4>Financial Data</h4><p>Financial information, such as data related to your payment method (e.g. valid credit card number, card brand, expiration date) that we may collect when you purchase, order, return, exchange, or request information about our services from the site. We store only very limited, if any, financial information that we collect. Otherwise, all financial information is stored by our payment processor and you are encouraged to review their privacy policy and contact them directly for responses to your questions.</p>"
+      },
+      {
+        "id": "how-we-use-your-information",
+        "title": "How We Use Your Information",
+        "content": "<p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the site to:</p><ul><li>Create and manage your account.</li><li>Process your transactions and send you related information, including purchase confirmations and invoices.</li><li>Email you regarding your account or order.</li><li>Fulfill and manage purchases, orders, payments, and other transactions.</li><li>Increase the efficiency and operation of the site.</li><li>Monitor and analyze usage and trends to improve your experience with the site.</li><li>Notify you of updates to the site or our services.</li><li>Offer new products, services, and/or recommendations to you.</li><li>Perform other business activities as needed.</li><li>Prevent fraudulent transactions, monitor against theft, and protect against criminal activity.</li><li>Resolve disputes and troubleshoot problems.</li></ul>"
+      },
+      {
+        "id": "cookies-and-tracking",
+        "title": "Cookies and Tracking Technologies",
+        "content": "<p>We may use cookies, web beacons, tracking pixels, and other tracking technologies on the site to help customize the site and improve your experience. When you access the site, your personal information is not collected through the use of tracking technology. Most browsers are set to accept cookies by default. You can remove or reject cookies, but be aware that such action could affect the availability and functionality of the site.</p><p>We may also use:</p><ul><li><strong>Essential Cookies:</strong> Required for the operation of the site, such as allowing you to log in and add items to your cart.</li><li><strong>Preference Cookies:</strong> Remember your preferences and settings to enhance your experience.</li><li><strong>Analytics Cookies:</strong> Help us understand how visitors interact with the site and improve our services.</li><li><strong>Marketing Cookies:</strong> Used to deliver relevant advertisements to you based on your browsing behavior.</li></ul><p>You can manage your cookie preferences through your browser settings. For more information, please visit <a href=\"#\">our Cookie Policy</a>.</p>"
+      },
+      {
+        "id": "data-security",
+        "title": "Data Security",
+        "content": "<p>We take reasonable steps to protect the information you provide to us from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction. We implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk.</p><p>However, please remember that no method of transmission over the internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</p><p>We use industry-standard encryption protocols (such as SSL/TLS) to protect your data during transmission. All sensitive information you supply is encrypted via Secure Socket Layer (SSL) technology.</p>"
+      },
+      {
+        "id": "third-party-services",
+        "title": "Third-Party Services",
+        "content": "<p>We may share your information with third-party service providers who perform services on our behalf, such as payment processing, data analysis, email delivery, hosting services, customer service, and marketing assistance. These third parties have access to your personal information only to perform specific tasks on our behalf and are obligated not to disclose or use your information for any other purpose.</p><p>We may also share your information with:</p><ul><li><strong>Affiliates:</strong> We may share your information with our affiliates, in which case we will require those affiliates to honor this Privacy Policy.</li><li><strong>Business Partners:</strong> We may share your information with our business partners to offer you certain products, services, or promotions.</li><li><strong>Legal Requirements:</strong> We may disclose your information where required by law or if we reasonably believe that such action is necessary to comply with the law or protect the rights, property, or safety of Horizon Hosting, our users, or others.</li></ul><p>We do not sell, trade, or rent your personal information to third parties for their marketing purposes.</p>"
+      },
+      {
+        "id": "your-rights",
+        "title": "Your Rights and Choices",
+        "content": "<p>You have certain rights regarding your personal information. These may include:</p><ul><li><strong>Access:</strong> You have the right to request access to the personal information we hold about you.</li><li><strong>Correction:</strong> You have the right to request that we correct any inaccurate or incomplete information we hold about you.</li><li><strong>Deletion:</strong> You have the right to request that we delete your personal information, subject to certain exceptions.</li><li><strong>Objection:</strong> You have the right to object to our processing of your personal information for certain purposes.</li><li><strong>Portability:</strong> You have the right to request that we transfer your personal information to another organization.</li></ul><p>To exercise any of these rights, please contact us using the information provided in the \"Contact Us\" section below. We will respond to your request within a reasonable timeframe and in accordance with applicable laws.</p>"
+      },
+      {
+        "id": "updates-to-this-policy",
+        "title": "Updates to This Policy",
+        "content": "<p>We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. The updated version will be indicated by an updated \"Last Updated\" date and the updated version will be effective as soon as it is accessible. If we make material changes to this Privacy Policy, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification.</p><p>We encourage you to review this Privacy Policy frequently to stay informed of how we are protecting your information. Your continued use of the site after any changes to this Privacy Policy constitutes your acceptance of such changes.</p>"
+      },
+      {
+        "id": "contact-us",
+        "title": "Contact Us",
+        "content": "<p>If you have questions or comments about this Privacy Policy, please contact us at:</p><p><strong>Horizon Hosting</strong><br />Email: privacy@horizon-hosting.com<br />Address: 123 Hosting Street, Digital City, DC 12345</p>"
+      }
+    ]
+  }
+}

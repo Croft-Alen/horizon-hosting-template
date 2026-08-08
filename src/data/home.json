@@ -1,0 +1,237 @@
+{
+  "sections": {
+    "hero": {
+      "tag": "Game Hosting",
+      "heading": "Game Servers That Never Compromise",
+      "highlight": "Never Compromise",
+      "description": "Premium game server hosting with powerful hardware, 24/7 support, and instant deployment. Trusted by 10,000+ gamers worldwide.",
+      "trustpilot": {
+        "stars": 5,
+        "label": "Trustpilot",
+        "users": "40+ clients",
+        "avatars": [
+          "https://i.pravatar.cc/100?img=1",
+          "https://i.pravatar.cc/100?img=2",
+          "https://i.pravatar.cc/100?img=3",
+          "https://i.pravatar.cc/100?img=4"
+        ]
+      },
+      "cta": {
+        "primary": {
+          "text": "Start Your Server",
+          "link": "/game-hosting"
+        },
+        "secondary": {
+          "text": "Learn More",
+          "link": "/features"
+        }
+      },
+      "games": [
+        { "id": "minecraft", "name": "Minecraft", "image": "/images/hero/minecraft.jpg", "price": "$1.00" },
+        { "id": "hytale", "name": "Hytale", "image": "/images/hero/hytale.webp", "price": "$1.00" },
+        { "id": "ark", "name": "ARK", "image": "/images/hero/ark.jpg", "price": "$1.00" },
+        { "id": "cs2", "name": "CS2", "image": "/images/hero/cs2.jpg", "price": "$1.00" },
+        { "id": "rust", "name": "Rust", "image": "/images/hero/rust.jpg", "price": "$1.00" },
+        { "id": "fivem", "name": "FiveM", "image": "/images/hero/fivem.jpg", "price": "$1.00" }
+      ]
+    },
+    "features": {
+      "tag": "Features",
+      "heading": "Why Choose Horizon Hosting?",
+      "subheading": "We combine cutting-edge technology with gamer-first features to deliver the best hosting experience.",
+      "features": [
+        {
+          "icon": "FaBolt",
+          "title": "Blazing Fast",
+          "description": "NVMe SSDs and high-performance CPUs ensure lightning-fast load times.",
+          "buttonLink": "/deploy",
+          "buttonText": "Deploy Now"
+        },
+        {
+          "icon": "FaShieldAlt",
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS protection to keep your servers safe 24/7."
+        },
+        {
+          "icon": "FaServer",
+          "title": "Game Optimized",
+          "description": "Servers fine-tuned for popular games like Minecraft, CS2, and Rust."
+        },
+        {
+          "icon": "FaGlobe",
+          "title": "Global Network",
+          "description": "Multiple locations worldwide for the lowest possible ping.",
+          "mapImage": "/images/map.png"
+        }
+      ]
+    },
+    "locations": {
+      "tag": "Global Network",
+      "heading": "Server Locations Worldwide",
+      "subheading": "Low-latency servers across the globe for the best gaming experience.",
+      "mapImage": "/images/locations-map.svg",
+      "locations": [
+        {
+          "city": "New York",
+          "country": "us",
+          "x": 25,
+          "y": 35
+        },
+        {
+          "city": "London",
+          "country": "gb",
+          "x": 45,
+          "y": 30
+        },
+        {
+          "city": "Berlin",
+          "country": "de",
+          "x": 50,
+          "y": 28
+        },
+        {
+          "city": "Tokyo",
+          "country": "jp",
+          "x": 82,
+          "y": 35
+        },
+        {
+          "city": "Sydney",
+          "country": "au",
+          "x": 88,
+          "y": 60
+        },
+        {
+          "city": "Singapore",
+          "country": "sg",
+          "x": 75,
+          "y": 45
+        },
+        
+        {
+          "city": "Sao Paulo",
+          "country": "br",
+          "x": 30,
+          "y": 70
+        }
+      ]
+    },
+    "serverManagement": {
+      "tag": "Server Management",
+      "heading": "Powerful Server Management",
+      "subheading": "Everything you need to manage your game servers and hosting infrastructure.",
+      "features": [
+        {
+          "title": "Custom Control Panel",
+          "description": "Full control of your server with an intuitive, modern control panel. Manage everything from server settings, player management, file editor, console access, and real-time performance monitoring all in one place.",
+          "panelImage": ""
+        },
+        {
+          "title": "Instant Setup",
+          "description": "Get your server online in minutes with our automated provisioning system. No manual configuration needed - just select your game, choose your plan, and your server will be ready to play instantly.",
+          "panelImage": ""
+        },
+        {
+          "title": "DDoS Protection",
+          "description": "Enterprise-grade DDoS mitigation to keep your server online and protected 24/7. Our advanced filtering system detects and blocks malicious traffic before it reaches your server.",
+          "panelImage": ""
+        },
+        {
+          "title": "One-Click Mods",
+          "description": "Install popular mods and plugins with a single click from our curated library. Browse hundreds of mods and plugins for your favorite games and install them instantly without any technical knowledge.",
+          "panelImage": ""
+        },
+        {
+          "title": "Automatic Backups",
+          "description": "Daily automated backups to ensure your data is always safe and secure. Restore your server to any previous state with one click, giving you peace of mind and complete data protection.",
+          "panelImage": ""
+        }
+      ]
+    },
+    "testimonials": {
+      "tag": "Testimonials",
+      "heading": "What Our Clients Say",
+      "subheading": "Join thousands of satisfied customers who trust Horizon Hosting.",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Alex Thompson",
+          "role": "Game Server Admin",
+          "content": "Horizon Hosting has been a game-changer for our Minecraft community. The performance is incredible and the support is always there when we need it. Our players have noticed zero lag since we made the switch.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/100?img=1"
+        },
+        {
+          "id": 2,
+          "name": "Sarah Chen",
+          "role": "Software Developer",
+          "content": "The VPS hosting from Horizon is unmatched. Fast, reliable, and the prices are very competitive.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/100?img=2"
+        },
+        {
+          "id": 3,
+          "name": "Mike Rodriguez",
+          "role": "CS2 Team Manager",
+          "content": "We moved our CS2 servers to Horizon and saw an immediate improvement in performance. No lag, amazing uptime.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/100?img=3"
+        },
+        {
+          "id": 4,
+          "name": "Emily Watson",
+          "role": "Game Developer",
+          "content": "The one-click mods feature is a lifesaver! Setting up modded servers has never been easier.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/100?img=4"
+        },
+        {
+          "id": 5,
+          "name": "David Kim",
+          "role": "Community Manager",
+          "content": "Best hosting provider we've ever used. The DDoS protection gives us peace of mind during tournaments.",
+          "rating": 5,
+          "avatar": "https://i.pravatar.cc/100?img=5"
+        }
+      ]
+    },
+    "faq": {
+      "tag": "FAQ",
+      "heading": "Frequently Asked Questions",
+      "subheading": "Find answers to the most common questions about our hosting services.",
+      "faqs": [
+        {
+          "question": "What types of hosting do you offer?",
+          "answer": "We offer game server hosting (Minecraft, Hytale, ARK, CS2, Rust, FiveM), VPS hosting, and bot hosting solutions. Each service is optimized for its specific use case."
+        },
+        {
+          "question": "How do I get started with Horizon Hosting?",
+          "answer": "Simply choose your hosting plan, select a server location, and complete the checkout process. Your server will be provisioned instantly, and you'll receive login details via email."
+        },
+        {
+          "question": "Do you offer DDoS protection?",
+          "answer": "Yes, all our hosting plans include enterprise-grade DDoS protection to keep your servers safe from attacks. We use advanced mitigation techniques to ensure 99.9% uptime."
+        },
+        {
+          "question": "Can I upgrade my plan later?",
+          "answer": "Absolutely! You can upgrade your plan at any time through your control panel. We offer seamless upgrades with no downtime to your servers."
+        },
+        {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept all major credit cards, PayPal, and various cryptocurrencies. All payments are processed securely through our payment gateway."
+        },
+        {
+          "question": "Is there a money-back guarantee?",
+          "answer": "Yes, we offer a 30-day money-back guarantee on all our hosting plans. If you're not satisfied, we'll refund your purchase—no questions asked."
+        }
+      ]
+    },
+    "cta": {
+      "tag": "Community",
+      "heading": "Join Our Discord Community",
+      "description": "Get instant support, connect with other gamers, and stay updated.",
+      "buttonText": "Join Discord",
+      "buttonLink": "https://discord.gg/your-invite"
+    }
+  }
+}

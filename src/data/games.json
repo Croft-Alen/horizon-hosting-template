@@ -1,0 +1,448 @@
+{
+  "games": [
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "slug": "minecraft",
+      "heroImage": "/images/game-hosting/minecraft-bg.png",
+      "description": "Premium Minecraft server hosting with unbeatable performance and 24/7 support.",
+      "billingCycles": ["monthly", "yearly"],
+      "plans": [
+        {
+          "name": "Basic",
+          "logo": "/images/plans-logo/minecraft-icon.avif",
+          "price": 10,
+          "yearlyPrice": 96,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=minecraft-basic",
+          "specs": [
+            { "label": "2 GB RAM", "icon": "ram" },
+            { "label": "1 vCPU Core", "icon": "cpu" },
+            { "label": "15 GB NVMe", "icon": "storage" },
+            { "label": "10 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Standard",
+          "logo": "/images/plans-logo/minecraft-icon.avif",
+          "price": 20,
+          "yearlyPrice": 192,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=minecraft-standard",
+          "specs": [
+            { "label": "4 GB RAM", "icon": "ram" },
+            { "label": "2 vCPU Cores", "icon": "cpu" },
+            { "label": "30 GB NVMe", "icon": "storage" },
+            { "label": "25 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Premium",
+          "logo": "/images/plans-logo/minecraft-icon.avif",
+          "price": 35,
+          "yearlyPrice": 336,
+          "popular": true,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=minecraft-premium",
+          "specs": [
+            { "label": "8 GB RAM", "icon": "ram" },
+            { "label": "4 vCPU Cores", "icon": "cpu" },
+            { "label": "60 GB NVMe", "icon": "storage" },
+            { "label": "50 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "logo": "/images/plans-logo/minecraft-icon.avif",
+          "price": 55,
+          "yearlyPrice": 528,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=minecraft-ultimate",
+          "specs": [
+            { "label": "16 GB RAM", "icon": "ram" },
+            { "label": "8 vCPU Cores", "icon": "cpu" },
+            { "label": "120 GB NVMe", "icon": "storage" },
+            { "label": "100 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hytale",
+      "name": "Hytale",
+      "slug": "hytale",
+      "heroImage": "/images/game-hosting/hytale-bg.jpg",
+      "description": "Experience Hytale with powerful server hosting that delivers smooth gameplay.",
+      "billingCycles": ["monthly", "yearly"],
+      "plans": [
+        {
+          "name": "Basic",
+          "logo": "/images/plans-logo/hytale-icon.webp",
+          "price": 12,
+          "yearlyPrice": 115.2,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=hytale-basic",
+          "specs": [
+            { "label": "2 GB RAM", "icon": "ram" },
+            { "label": "1 vCPU Core", "icon": "cpu" },
+            { "label": "15 GB NVMe", "icon": "storage" },
+            { "label": "10 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Standard",
+          "logo": "/images/plans-logo/hytale-icon.webp",
+          "price": 22,
+          "yearlyPrice": 211.2,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=hytale-standard",
+          "specs": [
+            { "label": "4 GB RAM", "icon": "ram" },
+            { "label": "2 vCPU Cores", "icon": "cpu" },
+            { "label": "30 GB NVMe", "icon": "storage" },
+            { "label": "25 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Premium",
+          "logo": "/images/plans-logo/hytale-icon.webp",
+          "price": 38,
+          "yearlyPrice": 364.8,
+          "popular": true,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=hytale-premium",
+          "specs": [
+            { "label": "8 GB RAM", "icon": "ram" },
+            { "label": "4 vCPU Cores", "icon": "cpu" },
+            { "label": "60 GB NVMe", "icon": "storage" },
+            { "label": "50 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "logo": "/images/plans-logo/hytale-icon.webp",
+          "price": 60,
+          "yearlyPrice": 576,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=hytale-ultimate",
+          "specs": [
+            { "label": "16 GB RAM", "icon": "ram" },
+            { "label": "8 vCPU Cores", "icon": "cpu" },
+            { "label": "120 GB NVMe", "icon": "storage" },
+            { "label": "100 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ark",
+      "name": "ARK",
+      "slug": "ark",
+      "heroImage": "/images/game-hosting/ark-bg.jpg",
+      "description": "Powerful ARK server hosting with high performance and maximum uptime.",
+      "billingCycles": ["monthly", "yearly"],
+      "plans": [
+        {
+          "name": "Basic",
+          "logo": "/images/plans-logo/ark-icon.png",
+          "price": 15,
+          "yearlyPrice": 144,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=ark-basic",
+          "specs": [
+            { "label": "4 GB RAM", "icon": "ram" },
+            { "label": "2 vCPU Cores", "icon": "cpu" },
+            { "label": "25 GB NVMe", "icon": "storage" },
+            { "label": "15 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Standard",
+          "logo": "/images/plans-logo/ark-icon.png",
+          "price": 25,
+          "yearlyPrice": 240,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=ark-standard",
+          "specs": [
+            { "label": "6 GB RAM", "icon": "ram" },
+            { "label": "3 vCPU Cores", "icon": "cpu" },
+            { "label": "50 GB NVMe", "icon": "storage" },
+            { "label": "30 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Premium",
+          "logo": "/images/plans-logo/ark-icon.png",
+          "price": 40,
+          "yearlyPrice": 384,
+          "popular": true,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=ark-premium",
+          "specs": [
+            { "label": "10 GB RAM", "icon": "ram" },
+            { "label": "5 vCPU Cores", "icon": "cpu" },
+            { "label": "80 GB NVMe", "icon": "storage" },
+            { "label": "50 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "logo": "/images/plans-logo/ark-icon.png",
+          "price": 65,
+          "yearlyPrice": 624,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=ark-ultimate",
+          "specs": [
+            { "label": "18 GB RAM", "icon": "ram" },
+            { "label": "9 vCPU Cores", "icon": "cpu" },
+            { "label": "150 GB NVMe", "icon": "storage" },
+            { "label": "80 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "name": "CS2",
+      "slug": "cs2",
+      "heroImage": "/images/game-hosting/cs2-bg.jpeg",
+      "description": "Competitive CS2 server hosting with ultra-low latency and 128-tick servers.",
+      "billingCycles": ["monthly", "yearly"],
+      "plans": [
+        {
+          "name": "Basic",
+          "logo": "/images/plans-logo/cs2-icon.png",
+          "price": 12,
+          "yearlyPrice": 115.2,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=cs2-basic",
+          "specs": [
+            { "label": "2 GB RAM", "icon": "ram" },
+            { "label": "1 vCPU Core", "icon": "cpu" },
+            { "label": "15 GB NVMe", "icon": "storage" },
+            { "label": "10 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Standard",
+          "logo": "/images/plans-logo/cs2-icon.png",
+          "price": 20,
+          "yearlyPrice": 192,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=cs2-standard",
+          "specs": [
+            { "label": "4 GB RAM", "icon": "ram" },
+            { "label": "2 vCPU Cores", "icon": "cpu" },
+            { "label": "30 GB NVMe", "icon": "storage" },
+            { "label": "16 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Competitive",
+          "logo": "/images/plans-logo/cs2-icon.png",
+          "price": 35,
+          "yearlyPrice": 336,
+          "popular": true,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=cs2-competitive",
+          "specs": [
+            { "label": "8 GB RAM", "icon": "ram" },
+            { "label": "4 vCPU Cores", "icon": "cpu" },
+            { "label": "60 GB NVMe", "icon": "storage" },
+            { "label": "24 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Pro",
+          "logo": "/images/plans-logo/cs2-icon.png",
+          "price": 55,
+          "yearlyPrice": 528,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=cs2-pro",
+          "specs": [
+            { "label": "16 GB RAM", "icon": "ram" },
+            { "label": "8 vCPU Cores", "icon": "cpu" },
+            { "label": "120 GB NVMe", "icon": "storage" },
+            { "label": "40 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "slug": "rust",
+      "heroImage": "/images/game-hosting/rust-bg.jpg",
+      "description": "High-performance Rust server hosting with massive player capacity and stability.",
+      "billingCycles": ["monthly", "yearly"],
+      "plans": [
+        {
+          "name": "Basic",
+          "logo": "/images/plans-logo/rust-icon.png",
+          "price": 18,
+          "yearlyPrice": 172.8,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=rust-basic",
+          "specs": [
+            { "label": "4 GB RAM", "icon": "ram" },
+            { "label": "2 vCPU Cores", "icon": "cpu" },
+            { "label": "25 GB NVMe", "icon": "storage" },
+            { "label": "15 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Standard",
+          "logo": "/images/plans-logo/rust-icon.png",
+          "price": 30,
+          "yearlyPrice": 288,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=rust-standard",
+          "specs": [
+            { "label": "6 GB RAM", "icon": "ram" },
+            { "label": "3 vCPU Cores", "icon": "cpu" },
+            { "label": "50 GB NVMe", "icon": "storage" },
+            { "label": "30 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Premium",
+          "logo": "/images/plans-logo/rust-icon.png",
+          "price": 45,
+          "yearlyPrice": 432,
+          "popular": true,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=rust-premium",
+          "specs": [
+            { "label": "10 GB RAM", "icon": "ram" },
+            { "label": "5 vCPU Cores", "icon": "cpu" },
+            { "label": "80 GB NVMe", "icon": "storage" },
+            { "label": "50 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "logo": "/images/plans-logo/rust-icon.png",
+          "price": 70,
+          "yearlyPrice": 672,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=rust-ultimate",
+          "specs": [
+            { "label": "18 GB RAM", "icon": "ram" },
+            { "label": "9 vCPU Cores", "icon": "cpu" },
+            { "label": "150 GB NVMe", "icon": "storage" },
+            { "label": "80 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fivem",
+      "name": "FiveM",
+      "slug": "fivem",
+      "heroImage": "/images/game-hosting/fivem-bg.jpg",
+      "description": "Reliable FiveM server hosting with powerful hardware and full mod support.",
+      "billingCycles": ["monthly", "yearly"],
+      "plans": [
+        {
+          "name": "Basic",
+          "logo": "/images/plans-logo/fivem-icon.png",
+          "price": 15,
+          "yearlyPrice": 144,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=fivem-basic",
+          "specs": [
+            { "label": "4 GB RAM", "icon": "ram" },
+            { "label": "2 vCPU Cores", "icon": "cpu" },
+            { "label": "25 GB NVMe", "icon": "storage" },
+            { "label": "15 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Standard",
+          "logo": "/images/plans-logo/fivem-icon.png",
+          "price": 25,
+          "yearlyPrice": 240,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=fivem-standard",
+          "specs": [
+            { "label": "6 GB RAM", "icon": "ram" },
+            { "label": "3 vCPU Cores", "icon": "cpu" },
+            { "label": "50 GB NVMe", "icon": "storage" },
+            { "label": "30 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Premium",
+          "logo": "/images/plans-logo/fivem-icon.png",
+          "price": 40,
+          "yearlyPrice": 384,
+          "popular": true,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=fivem-premium",
+          "specs": [
+            { "label": "10 GB RAM", "icon": "ram" },
+            { "label": "5 vCPU Cores", "icon": "cpu" },
+            { "label": "80 GB NVMe", "icon": "storage" },
+            { "label": "50 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "logo": "/images/plans-logo/fivem-icon.png",
+          "price": 65,
+          "yearlyPrice": 624,
+          "popular": false,
+          "orderUrl": "https://billing.yourhost.com/cart.php?product=fivem-ultimate",
+          "specs": [
+            { "label": "18 GB RAM", "icon": "ram" },
+            { "label": "9 vCPU Cores", "icon": "cpu" },
+            { "label": "150 GB NVMe", "icon": "storage" },
+            { "label": "80 Players", "icon": "players" },
+            { "label": "DDoS Protection", "icon": "shield" },
+            { "label": "24/7 Support", "icon": "support" }
+          ]
+        }
+      ]
+    }
+  ]
+}

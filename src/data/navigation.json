@@ -1,0 +1,112 @@
+{
+  "announcement": {
+    "text": "🎉 Welcome to Horizon Hosting! Get 20% off your first month with code: HORIZON20",
+    "enabled": true
+  },
+  "header": {
+    "logo": {
+      "name": "Horizon Hosting",
+      "alt": "Horizon Hosting Logo",
+      "path": "/images/logo.png"
+    },
+    "links": [
+      {
+        "label": "Game Hosting",
+        "type": "dropdown",
+        "items": [
+          { "label": "Minecraft", "href": "/game-hosting?game=minecraft", "enabled": true },
+          { "label": "Hytale", "href": "/game-hosting?game=hytale", "enabled": true },
+          { "label": "ARK", "href": "/game-hosting?game=ark", "enabled": true },
+          { "label": "CS2", "href": "/game-hosting?game=cs2", "enabled": true },
+          { "label": "Rust", "href": "/game-hosting?game=rust", "enabled": true },
+          { "label": "FiveM", "href": "/game-hosting?game=fivem", "enabled": true }
+        ]
+      },
+      {
+        "label": "Other Hosting",
+        "type": "dropdown",
+        "items": [
+          { "label": "Web Hosting", "href": "/web-hosting", "enabled": true },
+          { "label": "VPS Hosting", "href": "/vps-hosting", "enabled": true }
+        ]
+      },
+      {
+        "label": "Legal",
+        "type": "dropdown",
+        "items": [
+          { "label": "Privacy Policy", "href": "/privacy", "enabled": true },
+          { "label": "Terms of Service", "href": "/terms", "enabled": true }
+        ]
+      },
+      {
+        "label": "Resources",
+        "type": "dropdown",
+        "items": [
+          { "label": "Blog", "href": "/blog", "enabled": true }
+        ]
+      }
+    ],
+    "clientSpace": {
+      "label": "Client Space",
+      "items": [
+        { "label": "Billing Panel", "href": "https://billing.horizon-hosting.com", "external": true },
+        { "label": "Game Panel", "href": "https://game.horizon-hosting.com", "external": true },
+        { "label": "VPS Panel", "href": "https://vps.horizon-hosting.com", "external": true }
+      ]
+    },
+    "discordUrl": "https://discord.gg/horizon-hosting",
+    "currencies": [
+      { "code": "USD", "symbol": "$", "rate": 1, "countryCode": "us" },
+      { "code": "EUR", "symbol": "€", "rate": 0.92, "countryCode": "eu" },
+      { "code": "GBP", "symbol": "£", "rate": 0.79, "countryCode": "gb" }
+    ]
+  },
+  "footer": {
+    "description": "Premium hosting solutions for gamers and developers.",
+    "paymentIcons": [
+      { "src": "/images/payment-icons/visa-icon.png", "alt": "Visa" },
+      { "src": "/images/payment-icons/mastercard-icon.png", "alt": "Mastercard" },
+      { "src": "/images/payment-icons/paypal-icon.png", "alt": "PayPal" },
+      { "src": "/images/payment-icons/googlepay-icon.png", "alt": "Google Pay" }
+    ],
+    "columns": {
+      "gameHosting": {
+        "title": "Game Hosting",
+        "links": [
+          { "label": "Minecraft", "href": "/game-hosting?game=minecraft" },
+          { "label": "Hytale", "href": "/game-hosting?game=hytale" },
+          { "label": "ARK", "href": "/game-hosting?game=ark" },
+          { "label": "CS2", "href": "/game-hosting?game=cs2" },
+          { "label": "Rust", "href": "/game-hosting?game=rust" },
+          { "label": "FiveM", "href": "/game-hosting?game=fivem" }
+        ]
+      },
+      "otherHosting": {
+        "title": "Other Hosting",
+        "links": [
+          { "label": "Web Hosting", "href": "/web-hosting" },
+          { "label": "VPS Hosting", "href": "/vps-hosting" }
+        ]
+      },
+      "legal": {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "/privacy" },
+          { "label": "Terms of Service", "href": "/terms" }
+        ]
+      },
+      "resources": {
+        "title": "Resources",
+        "links": [
+          { "label": "Blog", "href": "/blog" }
+        ]
+      }
+    },
+    "social": {
+      "discord": "https://discord.gg/horizon-hosting",
+      "twitter": "https://twitter.com/horizon-hosting",
+      "github": "https://github.com/horizon-hosting"
+    },
+    "copyright": "© 2024 Horizon Hosting. All rights reserved."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "webHosting": {
+    "heroImage": "/images/web-hosting/web-hosting-hero.jpg",
+    "heading": "Premium Web Hosting",
+    "subheading": "Reliable, scalable, and secure web hosting solutions for businesses of all sizes.",
+    "billingCycles": ["monthly", "yearly"],
+    "hostingTypes": [
+      {
+        "id": "shared",
+        "name": "Shared Hosting",
+        "enabled": true,
+        "description": "Best for beginners, small websites",
+        "billingCycles": ["monthly", "yearly"],
+        "plans": [
+          {
+            "name": "Starter",
+            "logo": "/images/plans-logo/web-hosting-logo.webp",
+            "price": 3.99,
+            "yearlyPrice": 38.3,
+            "popular": false,
+            "orderUrl": "https://billing.yourhost.com/cart.php?product=starter",
+            "specs": [
+              { "label": "10 GB Storage", "icon": "storage" },
+              { "label": "1 Website", "icon": "website" },
+              { "label": "50 GB Bandwidth", "icon": "bandwidth" },
+              { "label": "Free SSL", "icon": "ssl" },
+              { "label": "cPanel", "icon": "cpanel" },
+              { "label": "24/7 Support", "icon": "support" }
+            ]
+          },
+          {
+            "name": "Professional",
+            "logo": "/images/plans-logo/web-hosting-logo.webp",
+            "price": 6.99,
+            "yearlyPrice": 67.1,
+            "popular": true,
+            "orderUrl": "https://billing.yourhost.com/cart.php?product=professional",
+            "specs": [
+              { "label": "25 GB Storage", "icon": "storage" },
+              { "label": "5 Websites", "icon": "website" },
+              { "label": "200 GB Bandwidth", "icon": "bandwidth" },
+              { "label": "Free SSL", "icon": "ssl" },
+              { "label": "cPanel", "icon": "cpanel" },
+              { "label": "24/7 Support", "icon": "support" }
+            ]
+          },
+          {
+            "name": "Business",
+            "logo": "/images/plans-logo/web-hosting-logo.webp",
+            "price": 12.99,
+            "yearlyPrice": 124.7,
+            "popular": false,
+            "orderUrl": "https://billing.yourhost.com/cart.php?product=business",
+            "specs": [
+              { "label": "50 GB Storage", "icon": "storage" },
+              { "label": "Unlimited Websites", "icon": "website" },
+              { "label": "500 GB Bandwidth", "icon": "bandwidth" },
+              { "label": "Free SSL", "icon": "ssl" },
+              { "label": "cPanel", "icon": "cpanel" },
+              { "label": "24/7 Support", "icon": "support" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wordpress",
+        "name": "WordPress Hosting",
+        "enabled": true,
+        "description": "Optimized for WordPress with lightning-fast performance",
+        "billingCycles": ["monthly", "yearly"],
+        "plans": [
+          {
+            "name": "Starter",
+            "logo": "/images/plans-logo/web-hosting-logo.webp",
+            "price": 4.99,
+            "yearlyPrice": 47.9,
+            "popular": false,
+            "orderUrl": "https://billing.yourhost.com/cart.php?product=wp-starter",
+            "specs": [
+              { "label": "10 GB Storage", "icon": "storage" },
+              { "label": "1 Website", "icon": "website" },
+              { "label": "100 GB Bandwidth", "icon": "bandwidth" },
+              { "label": "Free SSL", "icon": "ssl" },
+              { "label": "WP-CLI", "icon": "cpanel" },
+              { "label": "24/7 Support", "icon": "support" }
+            ]
+          },
+          {
+            "name": "Professional",
+            "logo": "/images/plans-logo/web-hosting-logo.webp",
+            "price": 9.99,
+            "yearlyPrice": 95.9,
+            "popular": true,
+            "orderUrl": "https://billing.yourhost.com/cart.php?product=wp-professional",
+            "specs": [
+              { "label": "25 GB Storage", "icon": "storage" },
+              { "label": "5 Websites", "icon": "website" },
+              { "label": "300 GB Bandwidth", "icon": "bandwidth" },
+              { "label": "Free SSL", "icon": "ssl" },
+              { "label": "WP-CLI", "icon": "cpanel" },
+              { "label": "24/7 Support", "icon": "support" }
+            ]
+          },
+          {
+            "name": "Business",
+            "logo": "/images/plans-logo/web-hosting-logo.webp",
+            "price": 16.99,
+            "yearlyPrice": 163.1,
+            "popular": false,
+            "orderUrl": "https://billing.yourhost.com/cart.php?product=wp-business",
+            "specs": [
+              { "label": "50 GB Storage", "icon": "storage" },
+              { "label": "Unlimited Websites", "icon": "website" },
+              { "label": "500 GB Bandwidth", "icon": "bandwidth" },
+              { "label": "Free SSL", "icon": "ssl" },
+              { "label": "WP-CLI", "icon": "cpanel" },
+              { "label": "24/7 Support", "icon": "support" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vps",
+        "name": "VPS Hosting",
+        "enabled": false,
+        "description": "More resources, dedicated environment",
+        "billingCycles": ["monthly", "yearly"],
+        "plans": []
+      },
+      {
+        "id": "dedicated",
+        "name": "Dedicated Server",
+        "enabled": false,
+        "description": "Full server control, highest performance",
+        "billingCycles": ["monthly", "yearly"],
+        "plans": []
+      },
+      {
+        "id": "cloud",
+        "name": "Cloud Hosting",
+        "enabled": false,
+        "description": "Scalable, pay-as-you-go",
+        "billingCycles": ["monthly", "yearly"],
+        "plans": []
+      },
+      {
+        "id": "reseller",
+        "name": "Reseller Hosting",
+        "enabled": false,
+        "description": "For hosting multiple client sites",
+        "billingCycles": ["monthly", "yearly"],
+        "plans": []
+      }
+    ]
+  }
+}

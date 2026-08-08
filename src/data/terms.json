@@ -1,0 +1,75 @@
+{
+  "terms": {
+    "heroImage": "/images/terms/terms-hero.jpg",
+    "heading": "Terms of Service",
+    "subheading": "Please read these terms carefully before using our services.",
+    "lastUpdated": "February 1, 2025",
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction",
+        "content": "<p>Welcome to Horizon Hosting. By accessing or using our website, services, and products, you agree to be bound by these Terms of Service (\"Terms\"). If you do not agree to these Terms, please do not use our services.</p><p>These Terms constitute a legally binding agreement between you and Horizon Hosting. We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of our services after any changes constitutes your acceptance of the new Terms.</p>"
+      },
+      {
+        "id": "account-registration",
+        "title": "Account Registration and Security",
+        "content": "<p>To access certain features of our services, you may be required to register for an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.</p><p>You are responsible for safeguarding your account credentials and for all activities that occur under your account. You agree to:</p><ul><li>Keep your password secure and confidential.</li><li>Notify us immediately of any unauthorized use of your account.</li><li>Ensure you exit from your account at the end of each session.</li><li>Not share your account credentials with any third party.</li></ul><p>We reserve the right to suspend or terminate your account if any information provided is inaccurate, outdated, or incomplete.</p>"
+      },
+      {
+        "id": "service-description",
+        "title": "Service Description and Usage",
+        "content": "<p>Horizon Hosting provides various hosting services including but not limited to game server hosting, VPS hosting, and web hosting. Our services are designed to meet the needs of individuals, businesses, and organizations.</p><p>You agree to use our services in compliance with all applicable laws and regulations. You are solely responsible for:</p><ul><li>All content and data stored on or transmitted through our services.</li><li>Ensuring your use of our services does not infringe upon the rights of others.</li><li>Maintaining the security of your server and applications.</li></ul><p>We reserve the right to suspend or terminate your access to our services if we believe you are violating these Terms or any applicable laws.</p>"
+      },
+      {
+        "id": "acceptable-use-policy",
+        "title": "Acceptable Use Policy",
+        "content": "<p>You agree not to use our services for any unlawful, prohibited, or abusive purposes. Prohibited activities include but are not limited to:</p><ul><li>Hosting or distributing illegal content, including child exploitation material.</li><li>Engaging in hacking, phishing, or other malicious activities.</li><li>Sending spam or unsolicited commercial messages.</li><li>Attempting to disrupt or compromise the security of our services.</li><li>Using our services for cryptocurrency mining without prior authorization.</li><li>Operating services that violate the intellectual property rights of others.</li></ul><p>We reserve the right to investigate and take appropriate legal action against anyone who violates this policy.</p>"
+      },
+      {
+        "id": "payment-and-billing",
+        "title": "Payment and Billing",
+        "content": "<p>All fees and charges for our services are outlined on our pricing page. By subscribing to any of our services, you agree to pay all applicable fees and charges as specified.</p><p>Payment terms:</p><ul><li><strong>Billing Cycle:</strong> All accounts are billed monthly or annually based on your selected plan.</li><li><strong>Payment Methods:</strong> We accept major credit cards, PayPal, and other payment methods as indicated on our site.</li><li><strong>Late Payments:</strong> Late payments may result in suspension or termination of your services.</li><li><strong>Refunds:</strong> We offer a 30-day money-back guarantee on most services. Please refer to our refund policy for details.</li></ul><p>You are responsible for providing accurate and complete billing information and notifying us of any changes.</p>"
+      },
+      {
+        "id": "cancellation-and-termination",
+        "title": "Cancellation and Termination",
+        "content": "<p>You may cancel your account or services at any time through your control panel or by contacting our support team. Upon cancellation:</p><ul><li>All services will be terminated.</li><li>Your data may be permanently deleted after a grace period.</li><li>Any outstanding balances will become immediately due.</li></ul><p>We reserve the right to terminate or suspend your account and access to our services immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach these Terms.</p><p>Upon termination, your right to use the services will immediately cease. All provisions of these Terms which by their nature should survive termination shall survive, including ownership provisions, warranty disclaimers, indemnity, and limitations of liability.</p>"
+      },
+      {
+        "id": "intellectual-property",
+        "title": "Intellectual Property Rights",
+        "content": "<p>Our services and all content, features, and functionality available through our services are owned by Horizon Hosting and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</p><p>You are granted a limited, non-exclusive, non-transferable, and revocable license to use our services for your personal or business purposes. You may not:</p><ul><li>Copy, modify, or distribute any part of our services without our prior written consent.</li><li>Reverse engineer or attempt to extract the source code of our software.</li><li>Use our trademarks or branding without our permission.</li></ul>"
+      },
+      {
+        "id": "limitation-of-liability",
+        "title": "Limitation of Liability",
+        "content": "<p>To the maximum extent permitted by law, Horizon Hosting shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:</p><ul><li>Your use or inability to use our services.</li><li>Any unauthorized access to or use of our servers and/or any personal information stored therein.</li><li>Any interruption or cessation of transmission to or from our services.</li><li>Any bugs, viruses, trojan horses, or the like that may be transmitted to or through our services by any third party.</li><li>Any errors or omissions in any content or for any loss or damage incurred as a result of the use of any content posted, emailed, transmitted, or otherwise made available through the services.</li></ul><p>In no event shall our total liability to you for all claims exceed the amount you paid to us during the twelve-month period prior to the event giving rise to the liability.</p>"
+      },
+      {
+        "id": "warranty-disclaimer",
+        "title": "Warranty Disclaimer",
+        "content": "<p>Our services are provided on an \"AS IS\" and \"AS AVAILABLE\" basis, without warranty of any kind, express or implied. We do not warrant that:</p><ul><li>Our services will meet your specific requirements.</li><li>Our services will be uninterrupted, timely, secure, or error-free.</li><li>The results obtained from using our services will be accurate or reliable.</li><li>Any errors in our services will be corrected.</li></ul><p>We expressly disclaim all warranties, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>"
+      },
+      {
+        "id": "indemnification",
+        "title": "Indemnification",
+        "content": "<p>You agree to defend, indemnify, and hold harmless Horizon Hosting, its officers, directors, employees, and agents, from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees) arising from:</p><ul><li>Your use of and access to our services.</li><li>Your violation of any term of these Terms.</li><li>Your violation of any third-party right, including without limitation any copyright, property, or privacy right.</li><li>Any claim that your content caused damage to a third party.</li></ul><p>This defense and indemnification obligation will survive these Terms and your use of our services.</p>"
+      },
+      {
+        "id": "governing-law",
+        "title": "Governing Law",
+        "content": "<p>These Terms shall be governed and construed in accordance with the laws of the jurisdiction where Horizon Hosting is established, without regard to its conflict of law provisions.</p><p>Any dispute arising out of or relating to these Terms or our services shall be resolved exclusively in the courts of that jurisdiction. You consent to the personal jurisdiction of such courts and waive any objection to such jurisdiction or venue.</p>"
+      },
+      {
+        "id": "changes-to-terms",
+        "title": "Changes to These Terms",
+        "content": "<p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p><p>By continuing to access or use our services after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you should stop using our services.</p>"
+      },
+      {
+        "id": "contact-us",
+        "title": "Contact Us",
+        "content": "<p>If you have any questions about these Terms of Service, please contact us at:</p><p><strong>Horizon Hosting</strong><br />Email: legal@horizon-hosting.com<br />Address: 123 Hosting Street, Digital City, DC 12345</p>"
+      }
+    ]
+  }
+}

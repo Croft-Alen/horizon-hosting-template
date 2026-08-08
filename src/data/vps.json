@@ -1,0 +1,162 @@
+{
+  "vps": {
+    "heroImage": "/images/vps-hosting/vps-hero.webp",
+    "heading": "Enterprise VPS Hosting",
+    "subheading": "High-performance virtual private servers with dedicated resources and full root access.",
+    "billingCycles": ["monthly", "yearly"],
+    "plans": [
+      {
+        "id": "intel-basic",
+        "name": "Basic",
+        "processor": "intel",
+        "logo": "/images/plans-logo/intel-logo.png",
+        "price": 29,
+        "yearlyPrice": 278.4,
+        "popular": false,
+        "setupFeeText": "No Setup Fee",
+        "orderUrl": "https://billing.yourhost.com/cart.php?product=intel-basic",
+        "specs": [
+          { "label": "2 vCPU Cores" },
+          { "label": "4 GB RAM" },
+          { "label": "50 GB NVMe" },
+          { "label": "1 Gbps Network" },
+          { "label": "DDoS Protection" },
+          { "label": "24/7 Support" }
+        ]
+      },
+      {
+        "id": "intel-standard",
+        "name": "Standard",
+        "processor": "intel",
+        "logo": "/images/plans-logo/intel-logo.png",
+        "price": 49,
+        "yearlyPrice": 470.4,
+        "popular": false,
+        "setupFeeText": "No Setup Fee",
+        "orderUrl": "https://billing.yourhost.com/cart.php?product=intel-standard",
+        "specs": [
+          { "label": "4 vCPU Cores" },
+          { "label": "8 GB RAM" },
+          { "label": "100 GB NVMe" },
+          { "label": "1 Gbps Network" },
+          { "label": "DDoS Protection" },
+          { "label": "24/7 Support" }
+        ]
+      },
+      {
+        "id": "intel-premium",
+        "name": "Premium",
+        "processor": "intel",
+        "logo": "/images/plans-logo/intel-logo.png",
+        "price": 79,
+        "yearlyPrice": 758.4,
+        "popular": true,
+        "setupFeeText": "No Setup Fee",
+        "orderUrl": "https://billing.yourhost.com/cart.php?product=intel-premium",
+        "specs": [
+          { "label": "6 vCPU Cores" },
+          { "label": "16 GB RAM" },
+          { "label": "200 GB NVMe" },
+          { "label": "1 Gbps Network" },
+          { "label": "DDoS Protection" },
+          { "label": "24/7 Support" }
+        ]
+      },
+      {
+        "id": "intel-ultimate",
+        "name": "Ultimate",
+        "processor": "intel",
+        "logo": "/images/plans-logo/intel-logo.png",
+        "price": 129,
+        "yearlyPrice": 1238.4,
+        "popular": false,
+        "setupFeeText": "No Setup Fee",
+        "orderUrl": "https://billing.yourhost.com/cart.php?product=intel-ultimate",
+        "specs": [
+          { "label": "8 vCPU Cores" },
+          { "label": "32 GB RAM" },
+          { "label": "400 GB NVMe" },
+          { "label": "1 Gbps Network" },
+          { "label": "DDoS Protection" },
+          { "label": "24/7 Support" }
+        ]
+      },
+      {
+        "id": "amd-basic",
+        "name": "Basic",
+        "processor": "amd",
+        "logo": "/images/plans-logo/amd-logo.png",
+        "price": 34,
+        "yearlyPrice": 326.4,
+        "popular": false,
+        "setupFeeText": "No Setup Fee",
+        "orderUrl": "https://billing.yourhost.com/cart.php?product=amd-basic",
+        "specs": [
+          { "label": "2 vCPU Cores" },
+          { "label": "4 GB RAM" },
+          { "label": "50 GB NVMe" },
+          { "label": "1 Gbps Network" },
+          { "label": "DDoS Protection" },
+          { "label": "24/7 Support" }
+        ]
+      },
+      {
+        "id": "amd-standard",
+        "name": "Standard",
+        "processor": "amd",
+        "logo": "/images/plans-logo/amd-logo.png",
+        "price": 54,
+        "yearlyPrice": 518.4,
+        "popular": false,
+        "setupFeeText": "No Setup Fee",
+        "orderUrl": "https://billing.yourhost.com/cart.php?product=amd-standard",
+        "specs": [
+          { "label": "4 vCPU Cores" },
+          { "label": "8 GB RAM" },
+          { "label": "100 GB NVMe" },
+          { "label": "1 Gbps Network" },
+          { "label": "DDoS Protection" },
+          { "label": "24/7 Support" }
+        ]
+      },
+      {
+        "id": "amd-premium",
+        "name": "Premium",
+        "processor": "amd",
+        "logo": "/images/plans-logo/amd-logo.png",
+        "price": 89,
+        "yearlyPrice": 854.4,
+        "popular": true,
+        "setupFeeText": "No Setup Fee",
+        "orderUrl": "https://billing.yourhost.com/cart.php?product=amd-premium",
+        "specs": [
+          { "label": "6 vCPU Cores" },
+          { "label": "16 GB RAM" },
+          { "label": "200 GB NVMe" },
+          { "label": "1 Gbps Network" },
+          { "label": "DDoS Protection" },
+          { "label": "24/7 Support" }
+        ]
+      },
+      {
+        "id": "amd-ultimate",
+        "name": "Ultimate",
+        "processor": "amd",
+        "logo": "/images/plans-logo/amd-logo.png",
+        "price": 149,
+        "yearlyPrice": 1430.4,
+        "popular": false,
+        "setupFeeText": "No Setup Fee",
+        "orderUrl": "https://billing.yourhost.com/cart.php?product=amd-ultimate",
+        "specs": [
+          { "label": "8 vCPU Cores" },
+          { "label": "32 GB RAM" },
+          { "label": "400 GB NVMe" },
+          { "label": "1 Gbps Network" },
+          { "label": "DDoS Protection" },
+          { "label": "24/7 Support" }
+        ]
+      }
+    ]
+  }
+}
