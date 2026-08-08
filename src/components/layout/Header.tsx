@@ -15,17 +15,18 @@ import { Card } from '@/components/ui/card';
 import navigationData from '@/data/navigation.json';
 import gamesData from '@/data/games.json';
 import { useCurrency } from '@/context/CurrencyContext';
+import { useAnnouncement } from '@/context/AnnouncementContext';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [openMobileDropdown, setOpenMobileDropdown] = useState<string | null>(null);
-  const [announcementVisible, setAnnouncementVisible] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const { header } = navigationData;
   const headerRef = useRef<HTMLElement>(null);
   const { currency, setCurrency, currencies, getFlagUrl } = useCurrency();
+  const { isVisible: announcementVisible } = useAnnouncement();
 
   const gameHostingLink = header.links.find((l: any) => l.label === 'Game Hosting');
   const enabledGameItems = gameHostingLink?.items.filter((item: any) => item.enabled !== false) || [];
@@ -81,9 +82,6 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    const savedState = localStorage.getItem('announcementClosed');
-    const shouldShow = navigationData.announcement.enabled && savedState !== 'true';
-    setAnnouncementVisible(shouldShow);
     setIsLoading(false);
   }, []);
 

@@ -5,6 +5,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import AnnouncementStrip from '@/components/layout/AnnouncementStrip';
 import { CurrencyProvider } from '@/context/CurrencyContext';
+import { AnnouncementProvider } from '@/context/AnnouncementContext';
 
 const spaceGrotesk = Space_Grotesk({ 
   subsets: ['latin'],
@@ -52,10 +53,12 @@ export default function RootLayout({
     <html lang="en" className={spaceGrotesk.variable} suppressHydrationWarning>
       <body className="antialiased bg-pageBg text-text-body">
         <CurrencyProvider>
-          <AnnouncementStrip />
-          <Header />
-          <main>{children}</main>
-          <Footer />
+          <AnnouncementProvider>
+            <AnnouncementStrip />
+            <Header />
+            <main>{children}</main>
+            <Footer />
+          </AnnouncementProvider>
         </CurrencyProvider>
       </body>
     </html>
