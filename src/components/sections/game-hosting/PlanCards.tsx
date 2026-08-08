@@ -2,17 +2,12 @@
 
 import { motion } from 'framer-motion';
 import { 
-  FaMicrochip, 
-  FaMemory, 
-  FaHdd, 
-  FaUsers, 
-  FaShieldAlt, 
-  FaHeadset,
   FaShoppingCart
 } from 'react-icons/fa';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Tag } from '@/components/ui/tag';
+import { Icon } from '@/components/ui/Icon';
 import gamesData from '@/data/games.json';
 import { useCurrency } from '@/context/CurrencyContext';
 
@@ -20,15 +15,6 @@ interface PlanCardsProps {
   gameId: string;
   billingCycle: 'monthly' | 'yearly';
 }
-
-const specIcons: { [key: string]: React.ReactNode } = {
-  ram: <FaMemory className="w-4 h-4" />,
-  cpu: <FaMicrochip className="w-4 h-4" />,
-  storage: <FaHdd className="w-4 h-4" />,
-  players: <FaUsers className="w-4 h-4" />,
-  shield: <FaShieldAlt className="w-4 h-4" />,
-  support: <FaHeadset className="w-4 h-4" />
-};
 
 export default function PlanCards({ gameId, billingCycle }: PlanCardsProps) {
   const game = gamesData.games.find(g => g.id === gameId);
@@ -106,9 +92,11 @@ export default function PlanCards({ gameId, billingCycle }: PlanCardsProps) {
                 <div className="space-y-3 mb-5 flex-grow">
                   {plan.specs.map((spec, idx) => (
                     <div key={idx} className="flex items-center gap-3 text-sm text-text-body">
-                      <span className="text-brand w-4 flex-shrink-0 flex items-center justify-center">
-                        {specIcons[spec.icon] || <FaMicrochip className="w-4 h-4" />}
-                      </span>
+                      <Icon 
+                        name={spec.icon} 
+                        size="sm" 
+                        className="text-brand flex-shrink-0" 
+                      />
                       <span className="leading-relaxed">{spec.label}</span>
                     </div>
                   ))}

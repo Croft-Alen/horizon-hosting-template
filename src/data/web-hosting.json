@@ -20,12 +20,12 @@
             "popular": false,
             "orderUrl": "https://billing.yourhost.com/cart.php?product=starter",
             "specs": [
-              { "label": "10 GB Storage", "icon": "storage" },
-              { "label": "1 Website", "icon": "website" },
-              { "label": "50 GB Bandwidth", "icon": "bandwidth" },
-              { "label": "Free SSL", "icon": "ssl" },
-              { "label": "cPanel", "icon": "cpanel" },
-              { "label": "24/7 Support", "icon": "support" }
+              { "label": "10 GB Storage", "icon": "FaDatabase" },
+              { "label": "1 Website", "icon": "FaServer" },
+              { "label": "50 GB Bandwidth", "icon": "FaGlobe" },
+              { "label": "Free SSL", "icon": "FaLock" },
+              { "label": "cPanel", "icon": "FaCog" },
+              { "label": "24/7 Support", "icon": "FaHeadset" }
             ]
           },
           {
@@ -36,12 +36,12 @@
             "popular": true,
             "orderUrl": "https://billing.yourhost.com/cart.php?product=professional",
             "specs": [
-              { "label": "25 GB Storage", "icon": "storage" },
-              { "label": "5 Websites", "icon": "website" },
-              { "label": "200 GB Bandwidth", "icon": "bandwidth" },
-              { "label": "Free SSL", "icon": "ssl" },
-              { "label": "cPanel", "icon": "cpanel" },
-              { "label": "24/7 Support", "icon": "support" }
+              { "label": "25 GB Storage", "icon": "FaDatabase" },
+              { "label": "5 Websites", "icon": "FaServer" },
+              { "label": "200 GB Bandwidth", "icon": "FaGlobe" },
+              { "label": "Free SSL", "icon": "FaLock" },
+              { "label": "cPanel", "icon": "FaCog" },
+              { "label": "24/7 Support", "icon": "FaHeadset" }
             ]
           },
           {
@@ -52,12 +52,12 @@
             "popular": false,
             "orderUrl": "https://billing.yourhost.com/cart.php?product=business",
             "specs": [
-              { "label": "50 GB Storage", "icon": "storage" },
-              { "label": "Unlimited Websites", "icon": "website" },
-              { "label": "500 GB Bandwidth", "icon": "bandwidth" },
-              { "label": "Free SSL", "icon": "ssl" },
-              { "label": "cPanel", "icon": "cpanel" },
-              { "label": "24/7 Support", "icon": "support" }
+              { "label": "50 GB Storage", "icon": "FaDatabase" },
+              { "label": "Unlimited Websites", "icon": "FaServer" },
+              { "label": "500 GB Bandwidth", "icon": "FaGlobe" },
+              { "label": "Free SSL", "icon": "FaLock" },
+              { "label": "cPanel", "icon": "FaCog" },
+              { "label": "24/7 Support", "icon": "FaHeadset" }
             ]
           }
         ]
@@ -77,12 +77,12 @@
             "popular": false,
             "orderUrl": "https://billing.yourhost.com/cart.php?product=wp-starter",
             "specs": [
-              { "label": "10 GB Storage", "icon": "storage" },
-              { "label": "1 Website", "icon": "website" },
-              { "label": "100 GB Bandwidth", "icon": "bandwidth" },
-              { "label": "Free SSL", "icon": "ssl" },
-              { "label": "WP-CLI", "icon": "cpanel" },
-              { "label": "24/7 Support", "icon": "support" }
+              { "label": "10 GB Storage", "icon": "FaDatabase" },
+              { "label": "1 Website", "icon": "FaServer" },
+              { "label": "100 GB Bandwidth", "icon": "FaGlobe" },
+              { "label": "Free SSL", "icon": "FaLock" },
+              { "label": "WP-CLI", "icon": "FaTerminal" },
+              { "label": "24/7 Support", "icon": "FaHeadset" }
             ]
           },
           {
@@ -93,12 +93,12 @@
             "popular": true,
             "orderUrl": "https://billing.yourhost.com/cart.php?product=wp-professional",
             "specs": [
-              { "label": "25 GB Storage", "icon": "storage" },
-              { "label": "5 Websites", "icon": "website" },
-              { "label": "300 GB Bandwidth", "icon": "bandwidth" },
-              { "label": "Free SSL", "icon": "ssl" },
-              { "label": "WP-CLI", "icon": "cpanel" },
-              { "label": "24/7 Support", "icon": "support" }
+              { "label": "25 GB Storage", "icon": "FaDatabase" },
+              { "label": "5 Websites", "icon": "FaServer" },
+              { "label": "300 GB Bandwidth", "icon": "FaGlobe" },
+              { "label": "Free SSL", "icon": "FaLock" },
+              { "label": "WP-CLI", "icon": "FaTerminal" },
+              { "label": "24/7 Support", "icon": "FaHeadset" }
             ]
           },
           {
@@ -109,12 +109,12 @@
             "popular": false,
             "orderUrl": "https://billing.yourhost.com/cart.php?product=wp-business",
             "specs": [
-              { "label": "50 GB Storage", "icon": "storage" },
-              { "label": "Unlimited Websites", "icon": "website" },
-              { "label": "500 GB Bandwidth", "icon": "bandwidth" },
-              { "label": "Free SSL", "icon": "ssl" },
-              { "label": "WP-CLI", "icon": "cpanel" },
-              { "label": "24/7 Support", "icon": "support" }
+              { "label": "50 GB Storage", "icon": "FaDatabase" },
+              { "label": "Unlimited Websites", "icon": "FaServer" },
+              { "label": "500 GB Bandwidth", "icon": "FaGlobe" },
+              { "label": "Free SSL", "icon": "FaLock" },
+              { "label": "WP-CLI", "icon": "FaTerminal" },
+              { "label": "24/7 Support", "icon": "FaHeadset" }
             ]
           }
         ]

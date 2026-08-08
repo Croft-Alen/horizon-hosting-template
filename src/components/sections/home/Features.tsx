@@ -4,16 +4,8 @@ import { motion, Variants } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Tag } from '@/components/ui/tag';
 import { Card } from '@/components/ui/card';
-import { IconBox } from '@/components/ui/icon-box';
-import { FaBolt, FaShieldAlt, FaServer, FaGlobe } from 'react-icons/fa';
+import { Icon } from '@/components/ui/Icon';
 import homeData from '@/data/home.json';
-
-const iconMap = {
-  FaBolt: FaBolt,
-  FaShieldAlt: FaShieldAlt,
-  FaServer: FaServer,
-  FaGlobe: FaGlobe
-};
 
 const featuresData = homeData.sections.features;
 
@@ -98,7 +90,9 @@ export default function Features() {
             className="md:col-span-4"
           >
             <Card className="p-8 flex flex-col justify-start min-h-[280px] h-full">
-              <IconBox size="lg" icon={iconMap[features[0].icon as keyof typeof iconMap]} className="mb-5" />
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-brand text-pageBg font-semibold border border-black/30 shadow-[inset_0_1px_1px_rgba(255,255,255,0.4),0_6px_12px_rgba(0,0,0,0.25)] transition-all duration-150 select-none mb-5">
+                <Icon name={features[0].icon} size="xl" />
+              </div>
               <h3 className="text-xl font-bold text-text-heading mb-2">{features[0].title}</h3>
               <p className="text-text-muted text-base leading-relaxed mb-6">{features[0].description}</p>
               <div className="mt-auto">
@@ -124,7 +118,9 @@ export default function Features() {
               className="flex-1"
             >
               <Card className="p-6 min-h-[130px] h-full">
-                <IconBox size="md" icon={iconMap[features[1].icon as keyof typeof iconMap]} className="mb-3" />
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-brand text-pageBg font-semibold border border-black/30 shadow-[inset_0_1px_1px_rgba(255,255,255,0.4),0_6px_12px_rgba(0,0,0,0.25)] transition-all duration-150 select-none mb-3">
+                  <Icon name={features[1].icon} size="md" />
+                </div>
                 <h3 className="text-lg font-bold text-text-heading mb-1.5">{features[1].title}</h3>
                 <p className="text-text-muted text-base leading-relaxed">{features[1].description}</p>
               </Card>
@@ -136,7 +132,9 @@ export default function Features() {
               className="flex-1"
             >
               <Card className="p-6 min-h-[130px] h-full">
-                <IconBox size="md" icon={iconMap[features[2].icon as keyof typeof iconMap]} className="mb-3" />
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-brand text-pageBg font-semibold border border-black/30 shadow-[inset_0_1px_1px_rgba(255,255,255,0.4),0_6px_12px_rgba(0,0,0,0.25)] transition-all duration-150 select-none mb-3">
+                  <Icon name={features[2].icon} size="md" />
+                </div>
                 <h3 className="text-lg font-bold text-text-heading mb-1.5">{features[2].title}</h3>
                 <p className="text-text-muted text-base leading-relaxed">{features[2].description}</p>
               </Card>
@@ -148,7 +146,9 @@ export default function Features() {
             className="md:col-span-4"
           >
             <Card className="p-8 flex flex-col min-h-[280px] h-full relative overflow-hidden">
-              <IconBox size="lg" icon={iconMap[features[3].icon as keyof typeof iconMap]} className="mb-5" />
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-brand text-pageBg font-semibold border border-black/30 shadow-[inset_0_1px_1px_rgba(255,255,255,0.4),0_6px_12px_rgba(0,0,0,0.25)] transition-all duration-150 select-none mb-5">
+                <Icon name={features[3].icon} size="xl" />
+              </div>
               <h3 className="text-xl font-bold text-text-heading mb-2">{features[3].title}</h3>
               <p className="text-text-muted text-base leading-relaxed mb-4">{features[3].description}</p>
               

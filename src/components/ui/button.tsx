@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'outline';
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
   href?: string;
   target?: string;
@@ -34,7 +34,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const variantClasses = {
       primary: 'bg-brand text-pageBg font-semibold border border-black/30 shadow-[inset_0_1px_1px_rgba(255,255,255,0.4),0_6px_12px_rgba(0,0,0,0.25)] hover:brightness-105',
       secondary: 'bg-cardBg text-text-body font-semibold border border-white/10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15),0_6px_12px_rgba(0,0,0,0.3)] hover:bg-white/5',
-      outline: 'border border-white/15 text-text-body font-semibold hover:bg-white/5'
+      outline: 'border border-white/15 text-text-body font-semibold hover:bg-white/5',
+      ghost: 'text-text-body font-medium hover:text-text-heading transition-colors'
     };
 
     const baseClasses = cn(

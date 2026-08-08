@@ -30,7 +30,6 @@ export default function VPSHostingPage() {
     setIsLoading(false);
   }, []);
 
-  // Show loading state while checking
   if (isLoading) {
     return <div className="min-h-screen bg-pageBg" />;
   }

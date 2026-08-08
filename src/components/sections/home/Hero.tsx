@@ -131,7 +131,7 @@ export default function Hero() {
 
             <Button 
               href={heroData.cta.secondary.link}
-              variant="outline"
+              variant="ghost"
               size="md"
               className="whitespace-nowrap"
             >

@@ -13,7 +13,6 @@ export default function PrivacyPage() {
   const sections = privacyData.privacy.sections;
 
   useEffect(() => {
-    // Check if Privacy Policy is enabled in navigation
     const legalLink = navigationData.header.links.find((l: any) => l.label === 'Legal');
     const privacyItem = legalLink?.items.find((item: any) => item.label === 'Privacy Policy');
     const enabled = privacyItem?.enabled !== false;
@@ -22,12 +21,10 @@ export default function PrivacyPage() {
     setIsLoading(false);
   }, []);
 
-  // Show loading state while checking
   if (isLoading) {
     return <div className="min-h-screen bg-pageBg" />;
   }
 
-  // Show 404 if Privacy Policy is disabled
   if (!isEnabled) {
     return <NotFound />;
   }

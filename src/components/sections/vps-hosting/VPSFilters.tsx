@@ -70,7 +70,7 @@ export default function VPSFilters({
             </button>
           </div>
 
-          {/* Billing Cycle Toggle - Only show if both cycles are available */}
+          {/* Billing Cycle Toggle*/}
           {showBillingToggle && (
             <div className="flex items-center gap-1 bg-cardBg rounded-full p-1">
               {availableCycles.includes('monthly') && (

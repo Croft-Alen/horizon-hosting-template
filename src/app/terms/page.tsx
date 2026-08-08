@@ -13,7 +13,6 @@ export default function TermsPage() {
   const sections = termsData.terms.sections;
 
   useEffect(() => {
-    // Check if Terms of Service is enabled in navigation
     const legalLink = navigationData.header.links.find((l: any) => l.label === 'Legal');
     const termsItem = legalLink?.items.find((item: any) => item.label === 'Terms of Service');
     const enabled = termsItem?.enabled !== false;
@@ -22,12 +21,10 @@ export default function TermsPage() {
     setIsLoading(false);
   }, []);
 
-  // Show loading state while checking
   if (isLoading) {
     return <div className="min-h-screen bg-pageBg" />;
   }
 
-  // Show 404 if Terms of Service is disabled
   if (!isEnabled) {
     return <NotFound />;
   }

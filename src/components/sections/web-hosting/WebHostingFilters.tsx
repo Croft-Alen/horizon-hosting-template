@@ -18,7 +18,6 @@ export default function WebHostingFilters({
 }: WebHostingFiltersProps) {
   const hostingTypes = webHostingData.webHosting.hostingTypes.filter(h => h.enabled);
 
-  // Get available cycles from the selected hosting type
   const selectedHosting = webHostingData.webHosting.hostingTypes.find(h => h.id === selectedType && h.enabled);
   const availableCycles = selectedHosting?.billingCycles || ['monthly', 'yearly'];
   const showBillingToggle = availableCycles.length > 1;
