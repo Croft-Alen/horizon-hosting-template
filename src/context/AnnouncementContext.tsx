@@ -15,15 +15,19 @@ export function AnnouncementProvider({ children }: { children: ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const savedState = localStorage.getItem('announcementClosed');
-    const shouldShow = navigationData.announcement.enabled && savedState !== 'true';
-    setIsVisible(shouldShow);
+    if (typeof window !== 'undefined') {
+      const savedState = localStorage.getItem('announcementClosed');
+      const shouldShow = navigationData.announcement.enabled && savedState !== 'true';
+      setIsVisible(shouldShow);
+    }
     setIsLoading(false);
   }, []);
 
   const closeAnnouncement = () => {
     setIsVisible(false);
-    localStorage.setItem('announcementClosed', 'true');
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('announcementClosed', 'true');
+    }
   };
 
   if (isLoading) {
@@ -40,7 +44,10 @@ export function AnnouncementProvider({ children }: { children: ReactNode }) {
 export function useAnnouncement() {
   const context = useContext(AnnouncementContext);
   if (context === undefined) {
-    throw new Error('useAnnouncement must be used within an AnnouncementProvider');
+    return { 
+      isVisible: false, 
+      closeAnnouncement: () => {} 
+    };
   }
   return context;
 }
