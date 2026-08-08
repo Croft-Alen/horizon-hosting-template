@@ -13,8 +13,6 @@ const spaceGrotesk = Space_Grotesk({
   display: 'swap',
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://horizon-hosting-template.vercel.app';
-
 export const metadata: Metadata = {
   title: 'Horizon Hosting - Premium Web Hosting Solutions',
   description: 'Experience blazing-fast hosting with Horizon Hosting. Premium web hosting, VPS, and dedicated servers for your business.',
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Horizon Hosting - Premium Web Hosting Solutions',
     description: 'Experience blazing-fast hosting with Horizon Hosting. Premium web hosting, VPS, and dedicated servers for your business.',
-    url: siteUrl,
+    url: 'https://horizon-hosting-template.vercel.app',
     siteName: 'Horizon Hosting',
     images: ['/og-image.jpg'],
     type: 'website',
@@ -41,7 +39,7 @@ export const metadata: Metadata = {
   },
   
   alternates: {
-    canonical: siteUrl,
+    canonical: 'https://horizon-hosting-template.vercel.app',
   },
 };
 
