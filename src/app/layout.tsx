@@ -5,6 +5,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import AnnouncementStrip from '@/components/layout/AnnouncementStrip';
 import Providers from '@/components/providers/Providers';
+import ThemeSwitcher from '@/components/demo/ThemeSwitcher';
 
 const spaceGrotesk = Space_Grotesk({ 
   subsets: ['latin'],
@@ -14,13 +15,14 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://your-domain.com'),
   title: 'Horizon Hosting - Premium Web Hosting Solutions',
   description: 'Experience blazing-fast hosting with Horizon Hosting. Premium web hosting, VPS, and dedicated servers for your business.',
   
   openGraph: {
     title: 'Horizon Hosting - Premium Web Hosting Solutions',
     description: 'Experience blazing-fast hosting with Horizon Hosting. Premium web hosting, VPS, and dedicated servers for your business.',
-    url: 'https://horizon-hosting-template.vercel.app',
+    url: 'https://your-domain.com',
     siteName: 'Horizon Hosting',
     images: ['/og-image.jpg'],
     type: 'website',
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
   },
   
   alternates: {
-    canonical: 'https://horizon-hosting-template.vercel.app',
+    canonical: 'https://your-domain.com',
   },
 };
 
@@ -56,6 +58,7 @@ export default function RootLayout({
           <Header />
           <main>{children}</main>
           <Footer />
+          <ThemeSwitcher />
         </Providers>
       </body>
     </html>
