@@ -69,6 +69,22 @@ export default function BlogDetailPage() {
     }, 2000);
   };
 
+  const shareOnTwitter = () => {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent(post.title);
+    window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, '_blank', 'width=600,height=400');
+  };
+
+  const shareOnFacebook = () => {
+    const url = encodeURIComponent(window.location.href);
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
+  };
+
+  const shareOnLinkedIn = () => {
+    const url = encodeURIComponent(window.location.href);
+    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank', 'width=600,height=400');
+  };
+
   return (
     <>
       <section className="min-h-screen bg-pageBg pt-32 sm:pt-36 md:pt-40 lg:pt-44 pb-16 sm:pb-20 md:pb-24 lg:pb-32">
@@ -158,22 +174,31 @@ export default function BlogDetailPage() {
               <Card className="p-4 sm:p-6">
                 <h4 className="text-sm font-semibold text-text-heading mb-3 sm:mb-4">Share this article</h4>
                 <div className="space-y-2">
-                  <Card className="p-0 hover:border-white/20 transition-colors cursor-pointer">
-                    <button className="w-full flex items-center gap-3 px-3 sm:px-4 py-2 rounded-lg text-text-body">
+                  <Card 
+                    className="p-0 hover:border-white/20 transition-colors cursor-pointer"
+                    onClick={shareOnTwitter}
+                  >
+                    <button className="w-full flex items-center gap-3 px-3 sm:px-4 py-2 rounded-lg text-text-body cursor-pointer">
                       <FaTwitter className="w-4 h-4 text-text-muted" />
                       <span className="text-xs sm:text-sm hidden sm:inline">Share on Twitter</span>
                       <span className="text-xs sm:text-sm sm:hidden">Twitter</span>
                     </button>
                   </Card>
-                  <Card className="p-0 hover:border-white/20 transition-colors cursor-pointer">
-                    <button className="w-full flex items-center gap-3 px-3 sm:px-4 py-2 rounded-lg text-text-body">
+                  <Card 
+                    className="p-0 hover:border-white/20 transition-colors cursor-pointer"
+                    onClick={shareOnFacebook}
+                  >
+                    <button className="w-full flex items-center gap-3 px-3 sm:px-4 py-2 rounded-lg text-text-body cursor-pointer">
                       <FaFacebook className="w-4 h-4 text-text-muted" />
                       <span className="text-xs sm:text-sm hidden sm:inline">Share on Facebook</span>
                       <span className="text-xs sm:text-sm sm:hidden">Facebook</span>
                     </button>
                   </Card>
-                  <Card className="p-0 hover:border-white/20 transition-colors cursor-pointer">
-                    <button className="w-full flex items-center gap-3 px-3 sm:px-4 py-2 rounded-lg text-text-body">
+                  <Card 
+                    className="p-0 hover:border-white/20 transition-colors cursor-pointer"
+                    onClick={shareOnLinkedIn}
+                  >
+                    <button className="w-full flex items-center gap-3 px-3 sm:px-4 py-2 rounded-lg text-text-body cursor-pointer">
                       <FaLinkedin className="w-4 h-4 text-text-muted" />
                       <span className="text-xs sm:text-sm hidden sm:inline">Share on LinkedIn</span>
                       <span className="text-xs sm:text-sm sm:hidden">LinkedIn</span>
@@ -183,7 +208,7 @@ export default function BlogDetailPage() {
                     className="p-0 hover:border-white/20 transition-colors cursor-pointer"
                     onClick={copyLink}
                   >
-                    <button className="w-full flex items-center gap-3 px-3 sm:px-4 py-2 rounded-lg text-text-body">
+                    <button className="w-full flex items-center gap-3 px-3 sm:px-4 py-2 rounded-lg text-text-body cursor-pointer">
                       <LinkIcon className="w-4 h-4 text-text-muted" />
                       <span className="text-xs sm:text-sm">{copyText}</span>
                     </button>
