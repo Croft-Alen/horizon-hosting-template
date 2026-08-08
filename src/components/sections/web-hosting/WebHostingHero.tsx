@@ -34,7 +34,7 @@ export default function WebHostingHero() {
             {heading} <br />
             <span className="text-brand">Built for Success</span>
           </h1>
-          <p className="text-lg text-text-muted max-w-2xl leading-relaxed">
+          <p className="text-lg text-text-body max-w-2xl leading-relaxed">
             {subheading}
           </p>
         </motion.div>
