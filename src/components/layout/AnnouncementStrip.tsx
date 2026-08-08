@@ -1,47 +1,26 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { FaTimes } from 'react-icons/fa';
+import { useAnnouncement } from '@/context/AnnouncementContext';
 import navigationData from '@/data/navigation.json';
 
-interface AnnouncementContextType {
-  isVisible: boolean;
-  closeAnnouncement: () => void;
-}
+export default function AnnouncementStrip() {
+  const { isVisible, closeAnnouncement } = useAnnouncement();
+  const { announcement } = navigationData;
 
-const AnnouncementContext = createContext<AnnouncementContextType | undefined>(undefined);
-
-export function AnnouncementProvider({ children }: { children: ReactNode }) {
-  const [isVisible, setIsVisible] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    const savedState = localStorage.getItem('announcementClosed');
-    const shouldShow = navigationData.announcement.enabled && savedState !== 'true';
-    setIsVisible(shouldShow);
-    setIsLoading(false);
-  }, []);
-
-  const closeAnnouncement = () => {
-    setIsVisible(false);
-    localStorage.setItem('announcementClosed', 'true');
-  };
-
-  if (isLoading) {
-    return <>{children}</>;
-  }
+  if (!announcement.enabled || !isVisible) return null;
 
   return (
-    <AnnouncementContext.Provider value={{ isVisible, closeAnnouncement }}>
-      {children}
-    </AnnouncementContext.Provider>
+    <div className="fixed top-0 left-0 right-0 z-50 bg-brand text-pageBg text-sm font-medium h-10 flex items-center px-4">
+      <div className="container mx-auto text-center relative">
+        <span className="font-semibold">{announcement.text}</span>
+        <button
+          onClick={closeAnnouncement}
+          className="absolute right-0 top-1/2 -translate-y-1/2 text-pageBg/70 hover:text-pageBg transition-colors"
+        >
+          <FaTimes className="w-4 h-4" />
+        </button>
+      </div>
+    </div>
   );
-}
-
-export function useAnnouncement() {
-  const context = useContext(AnnouncementContext);
-  if (context === undefined) {
-    // Return default values instead of throwing error for SSR/static generation
-    return { isVisible: false, closeAnnouncement: () => {} };
-  }
-  return context;
 }
