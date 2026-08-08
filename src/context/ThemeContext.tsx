@@ -19,7 +19,17 @@ interface ThemeContextType {
   currentPalette: string;
   setPalette: (name: string) => void;
   palettes: Record<string, ColorPalette>;
+  resetToDefault: () => void;
 }
+
+const defaultColors = {
+  pageBg: '#0B0E14',
+  cardBg: '#11151D',
+  textHeading: '#FFFFFF',
+  textBody: '#D6DAE2',
+  textMuted: '#8B93A3',
+  border: '#202630',
+};
 
 const palettes: Record<string, ColorPalette> = {
   default: {
@@ -27,84 +37,28 @@ const palettes: Record<string, ColorPalette> = {
     brand: '#F59E0B',
     brandDark: '#D97706',
     brandLight: '#FBBF24',
-    pageBg: '#0B0E14',
-    cardBg: '#11151D',
-    textHeading: '#FFFFFF',
-    textBody: '#D6DAE2',
-    textMuted: '#8B93A3',
-    border: '#202630',
+    ...defaultColors,
   },
   ocean: {
     name: 'Ocean',
     brand: '#0EA5E9',
     brandDark: '#0284C7',
     brandLight: '#38BDF8',
-    pageBg: '#0C1222',
-    cardBg: '#141C33',
-    textHeading: '#FFFFFF',
-    textBody: '#D6E4F0',
-    textMuted: '#8BA3C4',
-    border: '#1A2A4A',
+    ...defaultColors,
   },
-  forest: {
-    name: 'Forest',
+  green: {
+    name: 'Green',
     brand: '#22C55E',
     brandDark: '#16A34A',
     brandLight: '#4ADE80',
-    pageBg: '#0A140E',
-    cardBg: '#112218',
-    textHeading: '#FFFFFF',
-    textBody: '#D6E8D6',
-    textMuted: '#8BA38B',
-    border: '#1A2A1A',
-  },
-  sunset: {
-    name: 'Sunset',
-    brand: '#F97316',
-    brandDark: '#EA580C',
-    brandLight: '#FB923C',
-    pageBg: '#140E0A',
-    cardBg: '#2A1811',
-    textHeading: '#FFFFFF',
-    textBody: '#F0DED6',
-    textMuted: '#C4A38B',
-    border: '#4A2A1A',
+    ...defaultColors,
   },
   purple: {
     name: 'Purple',
-    brand: '#A855F7',
-    brandDark: '#7E22CE',
-    brandLight: '#C084FC',
-    pageBg: '#0E0A14',
-    cardBg: '#1A1133',
-    textHeading: '#FFFFFF',
-    textBody: '#E8D6F0',
-    textMuted: '#B48BC4',
-    border: '#2A1A4A',
-  },
-  dark: {
-    name: 'Dark',
-    brand: '#6B7280',
-    brandDark: '#4B5563',
-    brandLight: '#9CA3AF',
-    pageBg: '#0A0A0A',
-    cardBg: '#111111',
-    textHeading: '#FFFFFF',
-    textBody: '#D1D5DB',
-    textMuted: '#6B7280',
-    border: '#2A2A2A',
-  },
-  light: {
-    name: 'Light',
-    brand: '#3B82F6',
-    brandDark: '#2563EB',
-    brandLight: '#60A5FA',
-    pageBg: '#F8FAFC',
-    cardBg: '#FFFFFF',
-    textHeading: '#0F172A',
-    textBody: '#334155',
-    textMuted: '#94A3B8',
-    border: '#E2E8F0',
+    brand: '#7C3AED',
+    brandDark: '#5B21B6',
+    brandLight: '#8B5CF6',
+    ...defaultColors,
   },
 };
 
@@ -128,6 +82,12 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     }
   };
 
+  const resetToDefault = () => {
+    setCurrentPalette('default');
+    localStorage.setItem('themePalette', 'default');
+    applyPalette('default');
+  };
+
   const applyPalette = (name: string) => {
     const palette = palettes[name];
     if (!palette) return;
@@ -149,7 +109,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    <ThemeContext.Provider value={{ currentPalette, setPalette, palettes }}>
+    <ThemeContext.Provider value={{ currentPalette, setPalette, palettes, resetToDefault }}>
       {children}
     </ThemeContext.Provider>
   );
