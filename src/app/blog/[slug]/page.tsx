@@ -29,7 +29,6 @@ export default function BlogDetailPage() {
   const post = blogData.blog.posts.find((p) => p.slug === slug);
 
   useEffect(() => {
-    // Check if Blog is enabled in navigation
     const resourcesLink = navigationData.header.links.find((l: any) => l.label === 'Resources');
     const blogItem = resourcesLink?.items.find((item: any) => item.label === 'Blog');
     const enabled = blogItem?.enabled !== false;
@@ -38,12 +37,10 @@ export default function BlogDetailPage() {
     setIsLoading(false);
   }, []);
 
-  // Show loading state while checking
   if (isLoading) {
     return <div className="min-h-screen bg-pageBg" />;
   }
 
-  // Show 404 if Blog is disabled
   if (!isEnabled) {
     return <NotFound />;
   }
@@ -74,12 +71,12 @@ export default function BlogDetailPage() {
 
   return (
     <>
-      <section className="min-h-screen bg-pageBg pt-20 sm:pt-24 md:pt-28 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32">
+      <section className="min-h-screen bg-pageBg pt-32 sm:pt-36 md:pt-40 lg:pt-44 pb-16 sm:pb-20 md:pb-24 lg:pb-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 xl:gap-12">
             
             <div className="w-full lg:w-[70%]">
-              <div className="mb-4 sm:mb-6 lg:mb-4">
+              <div className="mb-6 sm:mb-8 lg:mb-6">
                 <Link href="/blog" className="inline-flex items-center gap-1 text-sm sm:text-base text-text-muted hover:text-brand transition-colors">
                   <ChevronRight className="w-4 h-4 rotate-180" />
                   Back to Blog

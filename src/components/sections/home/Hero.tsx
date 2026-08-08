@@ -154,7 +154,7 @@ export default function Hero() {
                   key={game.id}
                   variants={gameVariants}
                   custom={index}
-                  className="w-1/2 lg:w-1/3 p-2"
+                  className="w-full sm:w-1/2 lg:w-1/3 p-2"
                 >
                   <Link 
                     href={`/game-hosting?game=${game.id}`}
@@ -168,11 +168,11 @@ export default function Hero() {
                     
                     <div className="absolute inset-0 bg-gradient-to-t from-pageBg via-pageBg/70 to-pageBg/30 opacity-90 transition-opacity duration-500"></div>
                     
-                    <div className="absolute inset-0 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-pageBg/20"></div>
+                    <div className="absolute inset-0 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-pageBg/20 lg:block hidden"></div>
                     
-                    <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-out">
-                      <h3 className="text-2xl font-bold text-white mb-1">{game.name}</h3>
-                      <p className="text-base text-white/80">Starting from {game.price}</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 lg:translate-y-8 lg:group-hover:translate-y-0 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-500 ease-out">
+                      <h3 className="text-xl sm:text-2xl font-bold text-white mb-0.5 sm:mb-1">{game.name}</h3>
+                      <p className="text-sm sm:text-base text-white/80">Starting from {game.price}</p>
                     </div>
                   </Link>
                 </motion.div>

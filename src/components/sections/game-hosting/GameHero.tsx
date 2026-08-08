@@ -53,7 +53,7 @@ export default function GameHero({ gameId, onGameChange }: GameHeroProps) {
   if (!game || games.length === 0) return null;
 
   return (
-    <section className="relative min-h-[55vh] flex items-center overflow-hidden bg-pageBg pt-32">
+    <section className="relative min-h-[55vh] flex items-center overflow-hidden bg-pageBg pt-32 pb-12 sm:pb-16 lg:pb-20">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 z-10 bg-gradient-to-b from-pageBg/60 via-pageBg/80 to-pageBg" />
         <img 
@@ -67,7 +67,7 @@ export default function GameHero({ gameId, onGameChange }: GameHeroProps) {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-8">
           
           <div className="hidden lg:block w-full lg:w-[25%] xl:w-[20%] relative group max-w-[280px] mx-auto lg:mx-0">
@@ -142,7 +142,7 @@ export default function GameHero({ gameId, onGameChange }: GameHeroProps) {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-pageBg to-transparent z-10 pointer-events-none" />
+      <div className="absolute bottom-0 left-0 right-0 h-20 sm:h-24 lg:h-32 bg-gradient-to-t from-pageBg to-transparent z-10 pointer-events-none" />
     </section>
   );
 }
